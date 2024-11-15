@@ -1,7 +1,7 @@
 
 function randNum(guess, secret){
     
-    if (guess === secret) {
+    if (guess == secret) {
      console.log("You won!");
     } 
     
@@ -13,4 +13,4 @@ function randNum(guess, secret){
     console.log("Too high!");
     }
 }
-randNum(6, Math.floor(Math.random()* 100 + 1))
+randNum(2, Math.floor(Math.random()*10 + 1))
